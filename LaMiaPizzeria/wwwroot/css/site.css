@@ -27,10 +27,15 @@ body {
     font-size: 40px;
 }
 
-.contacts-headers {
+.upper-headers {
     font-family: "Oswald", sans-serif !important;
     color: #000;
     text-transform: uppercase;
+}
+
+.site-font {
+    font-family: "Oswald", sans-serif !important;
+    color: #000;
 }
 
 .navbar_logo_rotation{
