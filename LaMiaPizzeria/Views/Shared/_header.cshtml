@@ -1,22 +1,27 @@
 ﻿<nav class="navbar navbar-expand-lg navbar-expand-md bg-body-tertiary">
     <div class="container-fluid">
-        <div>
-            <img src="~/img/pngtree-pizza-red-food-png-image_6714973.png" alt="logo pizzeria" height="60" class="d-inline-block navbar_logo_rotation" />
-            <p class="navbar-brand mb-0 fs-large d-inline">La mia Pizzeria</p>
+        <div class="d-flex align-items-center">
+            <a class="nav-link active" href="@Url.Action("Index", "Home")">
+                <img src="~/img/pngtree-pizza-red-food-png-image_6714973.png" alt="logo pizzeria" height="60" class="d-inline-block navbar_logo_rotation" />
+                <p class="navbar-brand mb-1 fs-large d-inline">La mia Pizzeria</p>
+            </a>
         </div>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <div class="collapse navbar-collapse d-flex align-items-center justify-content-end" id="navbarTogglerDemo02">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link active" href="#">Menù</a>
+                    <a class="nav-link" href="@Url.Action("Index", "Home")">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Menù</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Dove siamo</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contattaci</a>
+                    <a class="nav-link" href="@Url.Action("ContactUs", "Home")">Contattaci</a>
                 </li>
             </ul>
         </div>

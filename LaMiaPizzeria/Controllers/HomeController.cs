@@ -24,6 +24,11 @@ namespace LaMiaPizzeria.Controllers
 			return View();
 		}
 
+		public IActionResult ContactUs()
+		{
+			return View("ContactUs");
+		}
+
 		[ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
 		public IActionResult Error()
 		{

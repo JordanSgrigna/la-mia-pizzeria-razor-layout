@@ -22,7 +22,16 @@ body {
     vertical-align: middle;
 }
 
+.thin-heading {
+    font-weight: 300;
+    font-size: 40px;
+}
 
+.contacts-headers {
+    font-family: "Oswald", sans-serif !important;
+    color: #000;
+    text-transform: uppercase;
+}
 
 .navbar_logo_rotation{
     height: 60px;
